@@ -94,22 +94,27 @@ function five() {
 
 five();
 
-let answerSix = 24;
+function six() {
+  let answerSix = 24;
 
-for (let i = 0; i < 4; i++) {
-  let questionSix = +prompt('Guess what number I\'m thinking? Try Guessing between 1 - 30');
-  if (questionSix === answerSix) {
-    alert(`That's right ${siteVisitor}, I have another baby girl due 24 AUG!`);
-    score++;
-    break;
-  } else if (questionSix > answerSix) {
-    alert("too high");
-  } else if (questionSix < answerSix) {
-    alert("too low");
-  } else if (i === 4) {
-    alert(`Sorry ${siteVisitor}, almost had it, the number was ${answerSix}`);
+  for (let i = 0; i < 4; i++) {
+    let questionSix = +prompt('Guess what number I\'m thinking? Try Guessing between 1 - 30');
+    if (questionSix === answerSix) {
+      alert(`That's right ${siteVisitor}, I have another baby girl due 24 AUG!`);
+      score++;
+      break;
+    } else if (questionSix > answerSix) {
+      alert('too high');
+    } else if (questionSix < answerSix) {
+      alert('too low');
+    } else if (i === 4) {
+      alert(`Sorry ${siteVisitor}, almost had it, the number was ${answerSix}`);
+    }
   }
 }
+
+six();
+
 let answerSeven = ['berserk', 'my hero academia'];
 
 let correct = false;

@@ -110,3 +110,9 @@ How long did it take you to complete this assignment? And, before you started, h
 Took me about an hour and a half.
 
 Three to Four hours easy.
+
+Lab Four - 7/14/22
+Driver: Angela DeLeon
+Navigator: Jose Gonzalez
+
+Jose and I worked on this together.  We updated the functions from question one through seven. We both agree that working together was much easier than last night's lab.  

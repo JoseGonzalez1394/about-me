@@ -7,7 +7,7 @@ let siteVisitor = prompt('Hello There! Whats your name');
 alert(`May the Force be with you ${siteVisitor}! Let's learn more about me, yea?`);
 // console.log(`User's name is ${siteVistor}`)
 
-function one () {
+function one() {
   let questionOne = prompt('Yes or No...Do I have a daughter?').toLowerCase();
   if (questionOne === 'y' || questionOne === 'yes') {
     // console.log('I am a girl dad indeed!')
@@ -23,18 +23,22 @@ function one () {
 
 one();
 
-let questionTwo = prompt('Yes or No...Did I serve in the Army?').toUpperCase();
+function two() {
+  let questionTwo = prompt('Yes or No...Did I serve in the Army?').toUpperCase();
 
-if (questionTwo === 'Y' || questionTwo === 'YES') {
-  // console.log('HOOAH!')
-  // console.log('I did serve in the Army for 9 years')
-  score++;
-  alert('HOOAH!');
-} else if (questionTwo === 'N' || questionTwo === 'NO') {
-  alert('I did serve in the Army for 9 years');
-} else {
-  alert('Answer yes or no');
+  if (questionTwo === 'Y' || questionTwo === 'YES') {
+    // console.log('HOOAH!')
+    // console.log('I did serve in the Army for 9 years')
+    score++;
+    alert('HOOAH!');
+  } else if (questionTwo === 'N' || questionTwo === 'NO') {
+    alert('I did serve in the Army for 9 years');
+  } else {
+    alert('Answer yes or no');
+  }
 }
+
+two();
 
 let questionThree = prompt('Yes or No... Am I over 6 ft tall?').toLowerCase();
 

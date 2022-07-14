@@ -75,21 +75,24 @@ function four() {
 
 four();
 
+function five() {
+  let questionFive = prompt('Yes or No...Am I up to date on the anime One Piece?').toLowerCase();
 
-let questionFive = prompt('Yes or No...Am I up to date on the anime One Piece?').toLowerCase();
+  if (questionFive === 'y' || questionFive === 'yes') {
+    // console.log('NOPE...way too many epsidoes, I have the attention span of a goldfish')
+    // console.log('OF COURSE! theres over a thousand epsidoes, Im in a coding boot camp...no time')
+    score++;
+    alert('NOPE...way too many epsidoes, I have the attention span of a goldfish');
+  } else if (questionFive === 'n' || questionFive === 'no') {
+    alert(`OF COURSE NOT ${siteVisitor}! There's over a thousand episodes, Im in a coding boot camp...no time`);
+  } else {
+    alert('Answer yes or no');
+  }
 
-if (questionFive === 'y' || questionFive === 'yes') {
-  // console.log('NOPE...way too many epsidoes, I have the attention span of a goldfish')
-  // console.log('OF COURSE! theres over a thousand epsidoes, Im in a coding boot camp...no time')
-  score++;
-  alert('NOPE...way too many epsidoes, I have the attention span of a goldfish');
-} else if (questionFive === 'n' || questionFive === 'no') {
-  alert(`OF COURSE NOT ${siteVisitor}! There's over a thousand episodes, Im in a coding boot camp...no time`);
-} else {
-  alert('Answer yes or no');
+  alert(`${siteVisitor} thanks for playing!`);
 }
 
-alert(`${siteVisitor} thanks for playing!`);
+five();
 
 let answerSix = 24;
 

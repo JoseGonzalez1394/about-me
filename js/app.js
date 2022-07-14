@@ -115,26 +115,31 @@ function six() {
 
 six();
 
-let answerSeven = ['berserk', 'my hero academia'];
+function seven() {
+  let answerSeven = ['berserk', 'my hero academia'];
 
-let correct = false;
+  let correct = false;
 
-for (let i = 0; i < 6; i++) {
-  let questionSeven = prompt(`Guess what manga I'm reading?`).toLowerCase();
-  for (let j = 0; j < answerSeven.length; j++) {
-    if (questionSeven === answerSeven[i]) {
-      alert(`That's one of them! I like mangas better than books`);
-      score++;
-      i = 6;
-      correct = true;
-      break;
+  for (let i = 0; i < 6; i++) {
+    let questionSeven = prompt('Guess what manga I\'m reading?').toLowerCase();
+    for (let j = 0; j < answerSeven.length; j++) {
+      if (questionSeven === answerSeven[i]) {
+        alert('That\'s one of them! I like mangas better than books');
+        score++;
+        i = 6;
+        correct = true;
+        break;
+      }
     }
   }
-}
-if (correct === false) {
-  alert(`Sorry, ${siteVisitor},nice try`);
-} else {
-  alert(`Good Job ${siteVisitor}! These are the manga I'm reading ${answerSeven}`);
+  if (correct === false) {
+    alert(`Sorry, ${siteVisitor},nice try`);
+  } else {
+    alert(`Good Job ${siteVisitor}! These are the manga I'm reading ${answerSeven}`);
+  }
+
+  alert(`${siteVisitor}, your score so far is ${score} out of 7`);
+
 }
 
-alert(`${siteVisitor}, your score so far is ${score} out of 7`);
+seven();

@@ -7,8 +7,8 @@ let siteVisitor = prompt('Hello There! Whats your name');
 alert(`May the Force be with you ${siteVisitor}! Let's learn more about me, yea?`);
 // console.log(`User's name is ${siteVistor}`)
 
-let questionOne = prompt('Yes or No...Do I have a daughter?').toLowerCase();
 function one () {
+  let questionOne = prompt('Yes or No...Do I have a daughter?').toLowerCase();
   if (questionOne === 'y' || questionOne === 'yes') {
     // console.log('I am a girl dad indeed!')
     // console.log('Nope, I sure do!')

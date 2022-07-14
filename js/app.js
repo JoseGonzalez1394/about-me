@@ -58,18 +58,23 @@ function three() {
 
 three();
 
-let questionFour = prompt('Yes or No...Do I have tattos?').toUpperCase();
+function four() {
+  let questionFour = prompt('Yes or No...Do I have tattos?').toUpperCase();
 
-if (questionFour === 'Y' || questionFour === 'YES') {
-  // console.log('YES! It can be quite the addiction')
-  // console.log('Sadly, I spend too much money on them')
-  score++;
-  alert('YES! It can be quite the addiction');
-} else if (questionFour === 'N' || questionFour === 'NO') {
-  alert('Sadly, I spend too much money on them');
-} else {
-  alert('Answer yes or no');
+  if (questionFour === 'Y' || questionFour === 'YES') {
+    // console.log('YES! It can be quite the addiction')
+    // console.log('Sadly, I spend too much money on them')
+    score++;
+    alert('YES! It can be quite the addiction');
+  } else if (questionFour === 'N' || questionFour === 'NO') {
+    alert('Sadly, I spend too much money on them');
+  } else {
+    alert('Answer yes or no');
+  }
 }
+
+four();
+
 
 let questionFive = prompt('Yes or No...Am I up to date on the anime One Piece?').toLowerCase();
 

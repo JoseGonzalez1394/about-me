@@ -1,16 +1,113 @@
-h1 {
-  font-size: 3vw; 
+head {
+ 
 }
-head{
-  background-color:rgb(227, 227, 165);
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-}
-main{
-  background-color:rgb(227, 227, 165);
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
 
+/* title {
+  
+} */
+
+body{
+  /* background-image: url("https://wallpaperaccess.com/full/6605235.jpg"); */
+  background: #F5F5DF url("https://cdn.statically.io/img/i.pinimg.com/originals/92/b7/94/92b794765f888c69433d3672a7d0308d.png") repeat-x fixed 100% 50%;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  color: rgb(222, 223, 176)
+}
+
+h1 {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 10px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  text-align: center;
+  font-size: 40px;
+ 
+}
+
+main {
+  
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 10px;
+}
+
+h2 {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 10px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  margin: auto;
+  width: 80%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  
+  
+}
+
+.education {
+  list-style-type: upper-roman;
+  margin: auto;
+  width: 60%;
+  height:50%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 40px;
+}
+
+.education-details {
+  list-style-type: circle ;
+  padding: 20px;
+}
+
+.job {
+  list-style-type: upper-roman;
+  margin: auto;
+  width: 80%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 40px;
+}
+.job-details {
+  list-style-type: circle;
+  padding-left: 30px;
+}
+
+.anime {
+  list-style-type: upper-roman;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 20px;
 }

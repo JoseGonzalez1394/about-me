@@ -85,6 +85,14 @@ js:
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
 
+- https://www.youtube.com/watch?v=N4V0FZASK60
+
+- https://www.interviewbit.com/css-cheat-sheet/#css-selectors
+
+- https://www.google.com/search?q=coding+wallpaper+iphone&tbm=isch&ved=2ahUKEwjFv723q_j4AhUGnWoFHZL6CD8Q2-cCegQIABAA&oq=coding+wallpaper+&gs_lcp=CgNpbWcQARgBMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQQzoHCCMQ6gIQJzoECCMQJzoLCAAQgAQQsQMQgwE6CAgAEIAEELEDOgcIABCxAxBDULIMWNUjYPg6aABwAHgAgAGHAYgB1wmSAQQwLjEwmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=ewbQYoWWNIa6qtsPkvWj-AM&bih=746&biw=1519&safe=images&hl=en
+
+- https://html-css-js.com/css/generator/background/ 
+
 ### Reflections
 
 How did this go, overall?

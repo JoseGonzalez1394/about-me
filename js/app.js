@@ -1,8 +1,10 @@
 'use strict';
 
+
 let siteVisitor = prompt('Hello There! Whats your name');
 
 alert(`May the Force be with you ${siteVisitor}! Let's learn more about me, yea?`);
+// console.log(`User's name is ${siteVistor}`)
 
 let score = 0;
 let questionOne = prompt('Yes or No...Do I have a daughter?').toLowerCase();
@@ -22,11 +24,11 @@ let questionTwo = prompt('Yes or No...Did I serve in the Army?').toUpperCase();
 
 if (questionTwo === 'Y' || questionTwo === 'YES') {
   // console.log('HOOAH!')
-  // console.log('I am a veteran indeed')
+  // console.log('I did serve in the Army for 9 years')
   score++;
   alert('HOOAH!');
 } else if (questionTwo === 'N' || questionTwo === 'NO') {
-  alert('I am a veteran indeed');
+  alert('I did serve in the Army for 9 years');
 } else {
   alert('Answer yes or no');
 }
@@ -71,40 +73,47 @@ if (questionFive === 'y' || questionFive === 'yes') {
   alert('Answer yes or no');
 }
 
-let questionSix = prompt(`Guess what number I'm thinking`);
+let questionSix = prompt(`Guess what number I'm thinking? Try Guessing between 1 - 30`);
 let answerSix = 24;
-let attempts = 5;
+let attemptsFour = 5;
 
-for (let i = 0; i < attempts; i++) {
-  while (questionSix < 1 || questionSix > 50) {
-    questionSix = prompt(`Guess what number I'm thinking`);
-    
+for (let i = 0; i < attemptsFour; i++) {
+  while (questionSix < 1 && questionSix > 30) {
+    // console.log('Sorry ${siteVisitor}, almost had it, the number was ${answerSix}')
+    // console.log('That's right ${siteVisitor}, I have another baby girl due 24 AUG!')
+    alert("Try again!");
+  }
+  if (questionSix === answerSix) {
     alert(`That's right ${siteVisitor}, I have another baby girl due 24 AUG!`);
     score++;
     break;
-  } else if (questionSix > answerSix) {
+  } if (questionSix > answerSix) {
     alert("too high");
-  } else if (questionSix < answerSix) {
+    break;
+  } else if (questionSix < answerSix); {
     alert("too low");
-  } else if (i <= 3) {
-  };
-  alert(`Sorry ${siteVisitor}, almost had it, the number was ${answerSix}`);
-}
-let answerSeven = ['Berserk', 'My Hero Academia'];
-
-for (let i = 0; i < answerSeven.length; i++) {
-  let questionSeven = prompt(`Guess what manga I'm reading?`);
-  for (let i = 0; i < answerSeven.length; i++) {
-    if (answerSeven[i] == QuestionSeven) {
-      alert(`That's one of them! I like manga better than books`);
-      score++;
-      i <= 5;
-      break;
-    } else if (answerSeven[i] != questionSeven); {
-      alert(`Nope, it's not that one, try again ${siteVisitor}`);
-    } else (questionSeven <= 5);
-    alert("The manga I'm reading are Berserk and My Hero Academia");
+  } if (i === 4) {
+    alert(`Sorry ${siteVisitor}, almost had it, the number was ${answerSix}`);
   }
 }
 
-alert('score = ' + score + '/7');
+let answerSeven = ['Berserk', 'My Hero Academia'];
+// let attemptsSix = 6;
+let questionSeven = prompt(`Guess what manga I'm reading?`);
+
+for (let i = 0; i < answerSeven.length; i++) {
+  while (answerSeven[i] === !questionSeven) {
+    // console.log('The manga I'm reading are: ${answerSeven}')
+    // console.log('That's one of them! I like manga better than books')
+    alert(`Nope, it's not that one, try again ${siteVisitor}`);
+    score++;
+    break;
+  } if (i <= 5); {
+    alert(`That's one of them! I like manga better than books`);
+    break;
+//   } if (i === 6); {
+//     alert(`The manga I'm reading are: ${answerSeven}`);
+//   }
+// }
+
+// alert('score = ' + score + '/7');

@@ -65,7 +65,7 @@ js:
 
 ### Links and resources 
 
-- collaboration with Adrian Butler Jr, Brandon, Daniel, Stephen Clemmer, TA
+- collaboration with Adrian Butler Jr, Daniel Awesome, Stephen Clemmer, Daniel Shiraishi
 
 - https://github.com/codefellows/seattle-code-201d88/blob/main/class-03/lecture-notes.md 
 

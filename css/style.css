@@ -1,3 +1,16 @@
 h1 {
   font-size: 3vw; 
 }
+head{
+  background-color:rgb(227, 227, 165);
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+main{
+  background-color:rgb(227, 227, 165);
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+
+}

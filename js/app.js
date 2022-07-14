@@ -40,19 +40,23 @@ function two() {
 
 two();
 
-let questionThree = prompt('Yes or No... Am I over 6 ft tall?').toLowerCase();
+function three() {
+  let questionThree = prompt('Yes or No... Am I over 6 ft tall?').toLowerCase();
 
-if (questionThree === 'y' || questionThree === 'yes') {
-  // console.log('Yup! I am a tall latino...quite the anamoly')
-  // console.log('I am a tall latino...shocking I know')
-  score++;
-  alert('Yup! I am a tall latino...quite the anomaly');
-  score++;
-} else if (questionThree === 'n' || questionThree === 'no') {
-  alert('I am a tall latino...shocking I know');
-} else {
-  alert('Answer yes or no');
+  if (questionThree === 'y' || questionThree === 'yes') {
+    // console.log('Yup! I am a tall latino...quite the anamoly')
+    // console.log('I am a tall latino...shocking I know')
+    score++;
+    alert('Yup! I am a tall latino...quite the anomaly');
+    score++;
+  } else if (questionThree === 'n' || questionThree === 'no') {
+    alert('I am a tall latino...shocking I know');
+  } else {
+    alert('Answer yes or no');
+  }
 }
+
+three();
 
 let questionFour = prompt('Yes or No...Do I have tattos?').toUpperCase();
 

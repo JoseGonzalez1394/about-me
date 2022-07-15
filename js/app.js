@@ -10,7 +10,6 @@ alert(`May the Force be with you ${siteVisitor}! Let's learn more about me, yea?
 function one() {
   let questionOne = prompt('Yes or No...Do I have a daughter?').toLowerCase();
   if (questionOne === 'y' || questionOne === 'yes') {
-
     score++;
     alert('I am a girl dad indeed!');
   } else if (questionOne === 'n' || questionOne === 'no') {

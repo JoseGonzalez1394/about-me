@@ -55,7 +55,7 @@ function three() {
 three();
 
 function four() {
-  let questionFour = prompt('Yes or No...Do I have tattos?').toUpperCase();
+  let questionFour = prompt('Yes or No...Do I have tattoos?').toUpperCase();
 
   if (questionFour === 'Y' || questionFour === 'YES') {
 

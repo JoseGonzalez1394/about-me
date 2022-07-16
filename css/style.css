@@ -2,33 +2,29 @@ head {
  
 }
 
-/* title {
-  
-} */
-
 body{
-  background: #F5F5DF url("https://cdn.statically.io/img/i.pinimg.com/originals/92/b7/94/92b794765f888c69433d3672a7d0308d.png") repeat-x fixed 100% 50%;
+  background: url("https://images.unsplash.com/photo-1599651828694-24ed0c4d5fc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); 
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  color: rgb(222, 223, 176)
+  color: rgb(222, 223, 176);
 }
 
 h1 {
-  margin: 40px 200px 50px 380px;
+  margin: 40px 200px 50px 300px;
   width: 50%;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
-  box-shadow: 5px 5px 20px 5px #e7e13f;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
   text-align: center;
   font-size: 40px;
+  color: rgb(222, 223, 176);
+  background-color: rgb(116, 90, 90);
   border-spacing: 15px 50px;
   border-collapse: separate;
-  background-color: whitesmoke
 }
-.Cage{
-  background: url("https://c.tenor.com/skuOGzv6T4wAAAAd/family-man-jack-campbell.gif"); 
-  margin: 40px 60px 50px 1080px;
+.dad{
+  margin: 40px 1200px 50px 480px;
   background-position: center;
   height: 200px;
   display: block;
@@ -36,7 +32,11 @@ h1 {
   justify-content: center;
   border: 3px solid rgb(202, 205, 202);
   border-color: wheat ;
-  box-shadow: 5px 5px 20px 5px #e7e13f;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 main {
   
@@ -47,90 +47,93 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 1em auto;
   width: 40%;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
-  box-shadow: 5px 5px 20px 5px #e7e13f;
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUNioeQgT1d2o3g9HrT5PKymbacDDaMzXjA&usqp=CAU");
-  background-position: center;
-  background-repeat: none;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  background: url("https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: contain; 
 }
 
 h2 {
-  margin: auto;
+  margin: 40px 30px 30px 30px;
   width: 50%;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
   text-align: center;
   font-size: 30px;
-  background-color: black
+  background-color: rgb(116, 90, 90);
 }
 
 p {
-  margin: auto;
+  margin: 20px 30px 20px 30px;
   width: 80%;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
   font-size: 15px;
   text-align: center;
-  background-color: black
+  background-color: rgb(116, 90, 90);
 }
-
-ul {
-  text-align: center;
-  
-  
+ul{
+text-align: center;
 }
 
 .education {
   list-style-type: upper-roman;
-  margin: auto;
+  margin: 40px 30px 30px 30px;
   width: 60%;
   height:50%;
   border: 3px solid rgb(202, 205, 202);
   padding: 40px;
-  background-color: black
+  background-color: rgb(116, 90, 90);
 }
 
 .education-details {
   list-style-type: circle ;
   padding: 20px;
+  background-color: rgb(116, 90, 90);
 }
 
 .job {
   list-style-type: upper-roman;
-  margin: auto;
+  margin: 40px 90px 30px 6px;
   width: 80%;
   border: 3px solid rgb(202, 205, 202);
   padding: 40px;
-  background-color: black
+  background-color: rgb(116, 90, 90);
 }
 .job-details {
   list-style-type: circle;
+  margin: 30px 30px 40px 30px;
   padding-left: 30px;
+  background-color: rgb(116, 90, 90);
 }
 
 .anime {
   list-style-type: upper-roman;
   text-align: center;
-  margin: auto;
+  margin: 30px 30px 40px 30px;
   width: 50%;
   border: 3px solid rgb(202, 205, 202);
   padding: 50px;
-  background-color: black
+  background-color: rgb(116, 90, 90);
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 50px 50px 495px;
+  text-align: center;
+  margin: 40px 8100px 50px 360px;
   width: 39%;
   border: 3px solid rgb(202, 205, 202);
   padding: 20px;
-  font-size: large;
-  box-shadow: 5px 5px 20px 5px #e7e13f;
-  background-color: rgb(85, 233, 238)
+  font-size: x-large;
+  box-shadow: 5px 5px 20px 5px #d8d7c5;
+  color: rgb(222, 223, 176);
+  background-color: rgb(116, 90, 90);
+  box-shadow: 5px 5px 20px 5px #d89a7f;
 }
